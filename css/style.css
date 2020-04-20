@@ -1,0 +1,367 @@
+body {
+    font-family: 'Microsoft JhengHei';
+}
+
+ul ol {
+    padding-left: 6px;
+}
+
+.navbar {
+    background: rgba(0, 0, 0, 0);
+}
+
+.header {
+    background-image: url(/img/banner.png);
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 0;
+}
+
+.header-text {
+    margin-top: 200px;
+}
+
+.hobbies-title {
+    font-size: 18px;
+    margin-top: 1rem;
+}
+
+/* 技能 */
+.skill {
+    background-color: #f6f6f6;
+    /* height: 400px; */
+}
+
+.skill-content {
+    font-size: 18px;
+}
+
+.skill-content ul li {
+    margin-bottom: 5px;
+}
+
+.skill-text {
+    font-size: 22px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.skill-hr {
+    color: #595757;
+    /* border-top: 1px solid rgba(0,0,0,.1); */
+    border-top: 3px solid #595757;
+    margin-top: 10px;
+}
+
+/* 經歷 */
+.experience>.container {
+    border-bottom: 6px solid #f7b24d;
+}
+
+.job {
+    border-left: 3px solid #f7b24d;
+    position: relative;
+}
+
+.jobcircle-top {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #f7b24d;
+    position: absolute;
+    left: -7px;
+    top: 0px;
+}
+
+.jobcircle-bottom {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #f7b24d;
+    position: absolute;
+    left: -7px;
+    bottom: -12px;
+}
+
+.title {
+    margin-left: 16px;
+    font-size: 22px;
+    /* text-align: center; */
+    font-weight: bold;
+}
+
+.job ul li {
+    margin-left: 16px;
+    margin-top: 8px;
+}
+
+/* 經歷時間軸 */
+.timeline{
+    position: relative;
+    margin:0 auto;
+}
+.timeline::after{
+    content:'';
+    position: absolute;
+    width: 0px;
+    border:3px solid #f7b24d;
+    top:0;
+    height: 100%;
+    left:50%;
+    margin-left: -3px;
+    background-color: #f7b24d;
+}
+
+.timeline-section{
+    position: relative;
+    
+}
+
+.timeline-section .container{
+    padding: 20px;
+}
+
+.timeline-section .left .time , .timeline-section .right .time {
+    left: 50%;
+}
+
+.timeline-section .right .content, .timeline-section .left .content{
+    position: relative;
+    width: 50%;
+}
+
+.timeline-section .right .time, .timeline-section .left .time{
+    position: relative;
+    width: 120px;
+    font-weight: bolder;  
+}
+
+
+.timeline-section .left .time span:before {
+    text-align: left;
+    left: -30px;
+}
+
+.timeline-section .right .time span:before {
+    text-align: left;
+    left: -10px;
+}
+
+.timeline-section .right .time span, .timeline-section .left .time span {
+    color: #56332e;
+    position: absolute;
+    top:0px;
+}
+
+.timeline-section .right .time span:before, .timeline-section .left .time span:before{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 4px solid #f7b24d;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.card {
+    padding: 20px 10px;
+    background-color: #fff;
+    border: none;
+    color: #56332e;
+    box-shadow: 0px 1px 15px rgba(86, 51, 46, 0.6);
+    margin: 0 10px 0 10px;
+}
+
+.card ul ol {
+    padding-left: 8px;
+}
+
+/* left section */
+.timeline-section .left .content{
+    padding-right:15px;
+    left:0;
+}
+.timeline-section .left .time{
+    left:50%;
+}
+.timeline-section .left .time span:before{
+    text-align: left;
+    left: -30px;
+}
+
+.timeline-section .left .time span {
+    left: 20px;
+}
+
+/* right section */
+.timeline-section .right .content{
+    padding-left: 15px;
+    left: 50%;
+}
+.timeline-section .right .time{
+    left: 50%;
+}
+
+.timeline-section .right .time span:before{
+    text-align: right;
+    left: 82px;
+}
+
+.timeline-section .right .time span {
+    left:-92px;
+}
+
+/* 學歷 */
+.education {
+    background-color: #f6f6f6;
+}
+
+.sector {  
+    width: 400px; 
+    height: 400px; 
+    border-radius: 500px 30px 70px 80px; 
+    background: #f7b24d;
+    opacity: 0.6;
+
+}
+
+.circle {
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%;
+    border: 5px solid #f7b24d;
+    float: left;
+}
+
+.circle-text {
+    width: 200px; 
+    height: 200px; 
+    /* line-height: 100px; */
+    margin-top: 38%;
+    font-size: 18px;
+    text-align: center;
+    
+}
+
+.educontent {
+    border-left: 3px solid #f7b24d;
+}
+
+.edu-title {
+    margin: 0 0 10px 12px;
+    font-size: 20px;
+}
+
+.educontent ul li{
+    margin-bottom: 10px;
+
+}
+
+
+/* 作品集 */
+.portfo .content {
+    position: relative;
+    width: 100%;
+    /* max-width: 400px; */
+    margin: auto;
+    overflow: hidden;
+}
+
+.portfo .content .content-overlay {
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    height: 99%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.portfo .content:hover .content-overlay{
+    opacity: 1;
+}
+
+.content-image{
+    width: 100%;
+}
+
+.content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.portfo .content:hover .content-details{
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+}
+
+.content-details h3{
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+}
+
+.content-details p{
+    color: #fff;
+    font-size: 14px;
+}
+
+.fadeIn-bottom{
+    top: 80%;
+}
+
+.fadeIn-top{
+    top: 20%;
+}
+
+/* 頁尾 */
+.footer {
+    width: 100%;
+    background-color: #f6f6f6;
+    font-weight: 500;
+    line-height: 28px;
+    padding: 15px 0;
+}
+
+
+
+.pagetitle {
+    background-color: #f7b24d;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.webtitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
+
+.webcontent a img{
+    margin: 0 auto;
+}
