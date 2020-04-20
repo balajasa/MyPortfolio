@@ -11,7 +11,7 @@ ul ol {
 }
 
 .header {
-    background-image: url(/img/banner.png);
+    background-image: url(img/banner.png);
     height: 700px;
     width: 100%;
     background-repeat: no-repeat;
@@ -31,7 +31,6 @@ ul ol {
 /* 技能 */
 .skill {
     background-color: #f6f6f6;
-    /* height: 400px; */
 }
 
 .skill-content {
