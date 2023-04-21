@@ -7,14 +7,14 @@
 }
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *
 * ======================================================= */
 body {
   font-family: "Space Mono", Arial, serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.7;
+  line-height: 1.5;
   color: #4d4d4d;
   background: #fff;
 }
@@ -221,10 +221,10 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 30px;
 }
 
-#fh5co-features {
+#fh5co-skills {
   background: #2B2E4A;
 }
-#fh5co-features h2 {
+#fh5co-skills h2 {
   color: #fff;
 }
 #fh5co-features .services-padding {
@@ -595,10 +595,12 @@ h1, h2, h3, h4, h5, h6, figure {
 .timeline-body > p,
 .timeline-body > ul {
   margin-bottom: 0;
+  text-align: left;
 }
 
 .timeline-body > p + p {
   margin-top: 5px;
+
 }
 
 @media (max-width: 992px) {
@@ -697,6 +699,7 @@ h1, h2, h3, h4, h5, h6, figure {
   left: 0;
   margin-top: -30px;
   width: 100%;
+  color: #fff;
 }
 .chart span strong {
   display: block;
